@@ -6931,7 +6931,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.5.0"],\
           ["prettier", "npm:3.0.3"],\
           ["reflect-metadata", "npm:0.2.1"],\
-          ["regenerator-runtime", "npm:0.13.11"],\
+          ["regenerator-runtime", "npm:0.14.1"],\
           ["ts-jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.1.0"],\
           ["ts-loader", "virtual:251b55e6186f136d0456117ba65ba163d1a38b49e5d09875aa42c66c71e5a9085f9a3cc24c7aae5da7499c53d95e6948b9284db4d7d1f035f288826df740c6bf#npm:9.4.3"],\
           ["typescript", "patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
@@ -15326,6 +15326,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.11-90bf536060-d493e9e118.zip/node_modules/regenerator-runtime/",\
         "packageDependencies": [\
           ["regenerator-runtime", "npm:0.13.11"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.14.1", {\
+        "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.14.1-a6c97c609a-5db3161abb.zip/node_modules/regenerator-runtime/",\
+        "packageDependencies": [\
+          ["regenerator-runtime", "npm:0.14.1"]\
         ],\
         "linkType": "HARD"\
       }]\
