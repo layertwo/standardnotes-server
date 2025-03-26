@@ -1,6 +1,6 @@
 FROM node:20.10.0-alpine
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 RUN apk add --update --no-cache \
   g++ \

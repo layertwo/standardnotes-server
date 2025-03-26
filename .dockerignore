@@ -11,3 +11,15 @@ coverage
 !.yarn/versions
 
 data/*
+
+.dockerignore
+.git
+.github
+.gitignore
+.gitmodules
+.vscode
+tests
+README.md
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
