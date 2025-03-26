@@ -6356,7 +6356,7 @@ const RAW_RUNTIME_STATE =
           ["ioredis", "npm:5.3.2"],\
           ["jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.5.0"],\
           ["mixpanel", "npm:0.17.0"],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["prettier", "npm:3.0.3"],\
           ["reflect-metadata", "npm:0.2.1"],\
           ["ts-jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.1.0"],\
@@ -6485,7 +6485,7 @@ const RAW_RUNTIME_STATE =
           ["inversify-express-utils", "npm:6.4.3"],\
           ["ioredis", "npm:5.3.2"],\
           ["jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.5.0"],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["otplib", "npm:12.0.1"],\
           ["prettier", "npm:3.0.3"],\
           ["prettyjson", "npm:1.2.5"],\
@@ -6798,7 +6798,7 @@ const RAW_RUNTIME_STATE =
           ["inversify-express-utils", "npm:6.4.3"],\
           ["ioredis", "npm:5.3.2"],\
           ["jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.5.0"],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["prettier", "npm:3.0.3"],\
           ["reflect-metadata", "npm:0.2.1"],\
           ["sqlite3", "virtual:31b5a94a105c89c9294c3d524a7f8929fe63ee5a2efadf21951ca4c0cfd2ecf02e8f4ef5a066bbda091f1e3a56e57c6749069a080618c96b22e51131a330fc4a#npm:5.1.6"],\
@@ -6834,7 +6834,7 @@ const RAW_RUNTIME_STATE =
           ["inversify", "npm:6.0.1"],\
           ["ioredis", "npm:5.3.2"],\
           ["jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.5.0"],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["prettier", "npm:3.0.3"],\
           ["reflect-metadata", "npm:0.2.1"],\
           ["ts-jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.1.0"],\
@@ -6985,7 +6985,7 @@ const RAW_RUNTIME_STATE =
           ["ioredis", "npm:5.3.2"],\
           ["jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.5.0"],\
           ["jsonwebtoken", "npm:9.0.0"],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["prettier", "npm:3.0.3"],\
           ["prettyjson", "npm:1.2.5"],\
           ["reflect-metadata", "npm:0.2.1"],\
@@ -7065,7 +7065,7 @@ const RAW_RUNTIME_STATE =
           ["inversify-express-utils", "npm:6.4.3"],\
           ["ioredis", "npm:5.3.2"],\
           ["jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.5.0"],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["prettier", "npm:3.0.3"],\
           ["reflect-metadata", "npm:0.2.1"],\
           ["ts-jest", "virtual:fd909b174d079e30b336c4ce72c38a88c1e447767b1a8dd7655e07719a1e31b97807f0931368724fc78897ff15e6a6d00b83316c0f76d11f85111f342e08bb79#npm:29.1.0"],\
@@ -8501,6 +8501,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/asynckit-npm-0.4.0-c718858525-3ce727cbc7.zip/node_modules/asynckit/",\
         "packageDependencies": [\
           ["asynckit", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["aws-ssl-profiles", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "./.yarn/cache/aws-ssl-profiles-npm-1.1.2-aa19a8e15e-af9e5c5e6e.zip/node_modules/aws-ssl-profiles/",\
+        "packageDependencies": [\
+          ["aws-ssl-profiles", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13320,17 +13329,19 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.0.5", {\
-        "packageLocation": "./.yarn/cache/lru-cache-npm-8.0.5-bb030cd93e-74153ab136.zip/node_modules/lru-cache/",\
-        "packageDependencies": [\
-          ["lru-cache", "npm:8.0.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:9.1.1", {\
         "packageLocation": "./.yarn/cache/lru-cache-npm-9.1.1-765199cb01-bf0b62d5fd.zip/node_modules/lru-cache/",\
         "packageDependencies": [\
           ["lru-cache", "npm:9.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lru.min", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "./.yarn/cache/lru.min-npm-1.1.2-5e836d0c4f-74e56b2104.zip/node_modules/lru.min/",\
+        "packageDependencies": [\
+          ["lru.min", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13849,15 +13860,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mysql2", [\
-      ["npm:3.9.7", {\
-        "packageLocation": "./.yarn/cache/mysql2-npm-3.9.7-8fe89e50ac-7f43b17cc0.zip/node_modules/mysql2/",\
+      ["npm:3.14.0", {\
+        "packageLocation": "./.yarn/cache/mysql2-npm-3.14.0-de9fc2a650-ce3b965cee.zip/node_modules/mysql2/",\
         "packageDependencies": [\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
+          ["aws-ssl-profiles", "npm:1.1.2"],\
           ["denque", "npm:2.1.0"],\
           ["generate-function", "npm:2.3.1"],\
           ["iconv-lite", "npm:0.6.3"],\
           ["long", "npm:5.2.3"],\
-          ["lru-cache", "npm:8.0.5"],\
+          ["lru.min", "npm:1.1.2"],\
           ["named-placeholders", "npm:1.1.3"],\
           ["seq-queue", "npm:0.0.5"],\
           ["sqlstring", "npm:2.3.3"]\
@@ -16902,7 +16914,7 @@ const RAW_RUNTIME_STATE =
           ["mkdirp", "npm:2.1.6"],\
           ["mongodb", null],\
           ["mssql", null],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["oracledb", null],\
           ["pg", null],\
           ["pg-native", null],\
@@ -16994,7 +17006,7 @@ const RAW_RUNTIME_STATE =
           ["mkdirp", "npm:2.1.6"],\
           ["mongodb", null],\
           ["mssql", null],\
-          ["mysql2", "npm:3.9.7"],\
+          ["mysql2", "npm:3.14.0"],\
           ["oracledb", null],\
           ["pg", null],\
           ["pg-native", null],\
