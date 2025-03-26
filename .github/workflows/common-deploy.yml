@@ -47,7 +47,7 @@ jobs:
         image: ${{ secrets.AWS_ECR_REGISTRY }}/${{ inputs.docker_image }}
 
     - name: Deploy Amazon ECS task definition
-      uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+      uses: aws-actions/amazon-ecs-deploy-task-definition@v2
       with:
         task-definition: ${{ steps.task-def-prod.outputs.task-definition }}
         service: ${{ inputs.service_name }}
