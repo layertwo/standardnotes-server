@@ -35,7 +35,7 @@ on:
 jobs:
   publish:
     name: Publish Docker Image
-    uses: standardnotes/server/.github/workflows/common-docker-image.yml@main
+    uses: ./.github/workflows/common-docker-image.yml
     with:
       service_name: ${{ inputs.service_name }}
       package_path: ${{ inputs.package_path }}
@@ -48,7 +48,7 @@ jobs:
   #   needs: publish
 
   #   name: Deploy Web
-  #   uses: standardnotes/server/.github/workflows/common-deploy.yml@main
+  #   uses: ./.github/workflows/common-deploy.yml
   #   with:
   #     service_name: ${{ inputs.service_name }}
   #     docker_image: ${{ inputs.service_name }}:${{ github.sha }}
@@ -60,7 +60,7 @@ jobs:
   #   needs: publish
 
   #   name: Deploy Worker
-  #   uses: standardnotes/server/.github/workflows/common-deploy.yml@main
+  #   uses: ./.github/workflows/common-deploy.yml
   #   with:
   #     service_name: ${{ inputs.service_name }}-worker
   #     docker_image: ${{ inputs.service_name }}:${{ github.sha }}

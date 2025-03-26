@@ -29,20 +29,20 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: actions/setup-python@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
     - name: Cache build
       id: cache-build
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           packages/**/dist
         key: ${{ runner.os }}-${{ inputs.service_name }}-build-${{ github.sha }}
 
     - name: Set up Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         registry-url: 'https://registry.npmjs.org'
         node-version-file: '.nvmrc'
@@ -72,16 +72,16 @@ jobs:
       uses: aws-actions/amazon-ecr-login@v2
 
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@master
+      uses: docker/setup-qemu-action@v3
       with:
         platforms: all
 
     - name: Set up Docker Buildx
       id: buildx
-      uses: docker/setup-buildx-action@master
+      uses: docker/setup-buildx-action@v3
 
     - name: Publish Docker image
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v6
       with:
         builder: ${{ steps.buildx.outputs.name }}
         context: .

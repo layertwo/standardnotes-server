@@ -27,7 +27,7 @@ on:
 jobs:
   e2e:
     name: E2E
-    uses: standardnotes/server/.github/workflows/common-e2e.yml@main
+    uses: ./.github/workflows/common-e2e.yml
     with:
       snjs_image_tag: ${{ inputs.snjs_image_tag || 'latest' }}
       suite: ${{ inputs.suite || 'all' }}

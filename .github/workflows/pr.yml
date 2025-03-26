@@ -13,14 +13,14 @@ jobs:
 
     - name: Cache build
       id: cache-build
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           packages/**/dist
         key: ${{ runner.os }}-build-${{ github.sha }}
 
     - name: Set up Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         registry-url: 'https://registry.npmjs.org'
         node-version-file: '.nvmrc'
@@ -41,14 +41,14 @@ jobs:
 
     - name: Cache build
       id: cache-build
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           packages/**/dist
         key: ${{ runner.os }}-build-${{ github.sha }}
 
     - name: Set up Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         registry-url: 'https://registry.npmjs.org'
         node-version-file: '.nvmrc'
@@ -73,14 +73,14 @@ jobs:
 
     - name: Cache build
       id: cache-build
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           packages/**/dist
         key: ${{ runner.os }}-build-${{ github.sha }}
 
     - name: Set up Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         registry-url: 'https://registry.npmjs.org'
         node-version-file: '.nvmrc'
@@ -98,7 +98,7 @@ jobs:
   e2e-base:
     needs: build
     name: E2E Base Suite
-    uses: standardnotes/server/.github/workflows/common-e2e.yml@main
+    uses: ./.github/workflows/common-e2e.yml
     with:
       snjs_image_tag: 'latest'
       suite: 'base'
@@ -106,7 +106,7 @@ jobs:
   e2e-vaults:
     needs: build
     name: E2E Vaults Suite
-    uses: standardnotes/server/.github/workflows/common-e2e.yml@main
+    uses: ./.github/workflows/common-e2e.yml
     with:
       snjs_image_tag: 'latest'
       suite: 'vaults'
