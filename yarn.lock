@@ -3894,6 +3894,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@opentelemetry/api-logs@npm:0.200.0":
+  version: 0.200.0
+  resolution: "@opentelemetry/api-logs@npm:0.200.0"
+  dependencies:
+    "@opentelemetry/api": "npm:^1.3.0"
+  checksum: 91c09934268d43070f9cc39a6e3c337aefddae9ed9533105673f577604bfa07b8d19a0015b4988c61279e7d5715c8df2644f0389308b2941374db7bb8504d35b
+  languageName: node
+  linkType: hard
+
 "@opentelemetry/api-logs@npm:0.46.0":
   version: 0.46.0
   resolution: "@opentelemetry/api-logs@npm:0.46.0"
@@ -3907,6 +3916,13 @@ __metadata:
   version: 1.6.0
   resolution: "@opentelemetry/api@npm:1.6.0"
   checksum: b8daefad2c862ed4e1e6b50df8946f08339a27aa83ac3b081bd4ed92e9ae2c365ecfc200f936ce08a1278b9a3c4103b5f33c2c19a495f68e245f727bba41af75
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/api@npm:^1.3.0":
+  version: 1.9.0
+  resolution: "@opentelemetry/api@npm:1.9.0"
+  checksum: a607f0eef971893c4f2ee2a4c2069aade6ec3e84e2a1f5c2aac19f65c5d9eeea41aa72db917c1029faafdd71789a1a040bdc18f40d63690e22ccae5d7070f194
   languageName: node
   linkType: hard
 
@@ -4105,17 +4121,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-ioredis@npm:^0.36.0":
-  version: 0.36.0
-  resolution: "@opentelemetry/instrumentation-ioredis@npm:0.36.0"
+"@opentelemetry/instrumentation-ioredis@npm:^0.48.0":
+  version: 0.48.0
+  resolution: "@opentelemetry/instrumentation-ioredis@npm:0.48.0"
   dependencies:
-    "@opentelemetry/instrumentation": "npm:^0.45.1"
-    "@opentelemetry/redis-common": "npm:^0.36.1"
-    "@opentelemetry/semantic-conventions": "npm:^1.0.0"
-    "@types/ioredis4": "npm:@types/ioredis@^4.28.10"
+    "@opentelemetry/instrumentation": "npm:^0.200.0"
+    "@opentelemetry/redis-common": "npm:^0.37.0"
+    "@opentelemetry/semantic-conventions": "npm:^1.27.0"
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
-  checksum: c9f07ad9d51eb5aabadb3b190b6810ad28ab58a15ec371ca6e910739ae922c86658bc90127b466c038858f3dd206f6a5e2f51a025d10f92a7f28ee81055b6390
+  checksum: 5b29391fd2f0e114903b149369355e70e11bdc89804fb97524218a0ab8b45e3f42387f00bd33e784f4fdeb4a229d2d87b19f394dae83dc9cea44acd440d7b4a3
   languageName: node
   linkType: hard
 
@@ -4142,6 +4157,21 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
   checksum: d0e59c95a7f33e472346ff1d0d64cd70d4a6ce4f22d3d18e0f12872a73af7a6a9af8c0c86324a792572d3f894a394a640fbf984fe5673e79aefc6d68c5a24cc5
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/instrumentation@npm:^0.200.0":
+  version: 0.200.0
+  resolution: "@opentelemetry/instrumentation@npm:0.200.0"
+  dependencies:
+    "@opentelemetry/api-logs": "npm:0.200.0"
+    "@types/shimmer": "npm:^1.2.0"
+    import-in-the-middle: "npm:^1.8.1"
+    require-in-the-middle: "npm:^7.1.1"
+    shimmer: "npm:^1.2.1"
+  peerDependencies:
+    "@opentelemetry/api": ^1.3.0
+  checksum: 8e168487b630596accb02e26d27384593fe006daeb34f2943bcf61450a9d663225052c4940a5335be52647ce3436965719560e0ab8aaf5380fa1f80c9aaca148
   languageName: node
   linkType: hard
 
@@ -4271,10 +4301,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/redis-common@npm:^0.36.1":
-  version: 0.36.1
-  resolution: "@opentelemetry/redis-common@npm:0.36.1"
-  checksum: 65962c6a9cbcd77e653eb42dc00deecf4988cec4c20de4fa15b3817214147f92531c46e803aedcd561c016d777d015f750eeebe081741d39bbb9d23fcb886f3f
+"@opentelemetry/redis-common@npm:^0.37.0":
+  version: 0.37.0
+  resolution: "@opentelemetry/redis-common@npm:0.37.0"
+  checksum: 01b783ac26e1b63b2501d435884d9b1ede1cead7e4a80edb8b7d4a96dfa4b4040bc1ab86d03f11f7b363cf5bea7e4948ff931717340c19f55fe6668ab5866f0a
   languageName: node
   linkType: hard
 
@@ -4404,6 +4434,13 @@ __metadata:
   version: 1.19.0
   resolution: "@opentelemetry/semantic-conventions@npm:1.19.0"
   checksum: f4f1757af468077253d2e2ad4a3e7a9838d1ac663a7f77fba2b02df39ece27059a8ee4b81c5d9f4fe6201993380f3bce645249e14d90c6331feb4199621731bd
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/semantic-conventions@npm:^1.27.0":
+  version: 1.30.0
+  resolution: "@opentelemetry/semantic-conventions@npm:1.30.0"
+  checksum: 78df5976f5bcfd00acaea3e609cf06fdd34517ae8db994ae216aaac16c51af97ac22c534bfcbac5218e0086db83ec5ef6cc045b95626cc6ea807686bea549a41
   languageName: node
   linkType: hard
 
@@ -5921,7 +5958,7 @@ __metadata:
     "@opentelemetry/instrumentation-express": "npm:^0.34.0"
     "@opentelemetry/instrumentation-grpc": "npm:^0.46.0"
     "@opentelemetry/instrumentation-http": "npm:^0.46.0"
-    "@opentelemetry/instrumentation-ioredis": "npm:^0.36.0"
+    "@opentelemetry/instrumentation-ioredis": "npm:^0.48.0"
     "@opentelemetry/instrumentation-winston": "npm:^0.33.0"
     "@opentelemetry/propagator-aws-xray": "npm:^1.3.1"
     "@opentelemetry/resource-detector-aws": "npm:^1.3.4"
@@ -6651,15 +6688,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ioredis4@npm:@types/ioredis@^4.28.10":
-  version: 4.28.10
-  resolution: "@types/ioredis@npm:4.28.10"
-  dependencies:
-    "@types/node": "npm:*"
-  checksum: c160dccab11b9bdc49e753a8fb4c18ccd0dd97c9b5aa966514cdc3f3fb6cd007e421f1de6044565446acd59059b18c8d8f6ae878c013d623a24ed196adead6f3
-  languageName: node
-  linkType: hard
-
 "@types/ioredis@npm:^5.0.0":
   version: 5.0.0
   resolution: "@types/ioredis@npm:5.0.0"
@@ -6851,6 +6879,13 @@ __metadata:
   version: 1.0.3
   resolution: "@types/shimmer@npm:1.0.3"
   checksum: 339c432e2bff10fe320199177cab738afb92e231ea537188b34b7e07c657f876310fb05fd36d29e8c8a8fa2b68b355158dd011d9fe806da156275c6dee7ac971
+  languageName: node
+  linkType: hard
+
+"@types/shimmer@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@types/shimmer@npm:1.2.0"
+  checksum: f081a31d826ce7bfe8cc7ba8129d2b1dffae44fd580eba4fcf741237646c4c2494ae6de2cada4b7713d138f35f4bc512dbf01311d813dee82020f97d7d8c491c
   languageName: node
   linkType: hard
 
@@ -7239,6 +7274,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"acorn-import-attributes@npm:^1.9.5":
+  version: 1.9.5
+  resolution: "acorn-import-attributes@npm:1.9.5"
+  peerDependencies:
+    acorn: ^8
+  checksum: 8bfbfbb6e2467b9b47abb4d095df717ab64fce2525da65eabee073e85e7975fb3a176b6c8bba17c99a7d8ede283a10a590272304eb54a93c4aa1af9790d47a8b
+  languageName: node
+  linkType: hard
+
 "acorn-jsx@npm:^5.3.2":
   version: 5.3.2
   resolution: "acorn-jsx@npm:5.3.2"
@@ -7252,6 +7296,15 @@ __metadata:
   version: 8.2.0
   resolution: "acorn-walk@npm:8.2.0"
   checksum: e69f7234f2adfeb16db3671429a7c80894105bd7534cb2032acf01bb26e6a847952d11a062d071420b43f8d82e33d2e57f26fe87d9cce0853e8143d8910ff1de
+  languageName: node
+  linkType: hard
+
+"acorn@npm:^8.14.0":
+  version: 8.14.1
+  resolution: "acorn@npm:8.14.1"
+  bin:
+    acorn: bin/acorn
+  checksum: d1379bbee224e8d44c3c3946e6ba6973e999fbdd4e22e41c3455d7f9b6f72f7ce18d3dc218002e1e48eea789539cf1cb6d1430c81838c6744799c712fb557d92
   languageName: node
   linkType: hard
 
@@ -10340,6 +10393,18 @@ __metadata:
     cjs-module-lexer: "npm:^1.2.2"
     module-details-from-path: "npm:^1.0.3"
   checksum: a675f1480456bad4d674ccb82a39fef8252cd9cb07fb2ddae027dbee6c772fb1f9b6090706b0160f9948fb145963b76d1554b37bce477ef26b0aaa3bd805232a
+  languageName: node
+  linkType: hard
+
+"import-in-the-middle@npm:^1.8.1":
+  version: 1.13.1
+  resolution: "import-in-the-middle@npm:1.13.1"
+  dependencies:
+    acorn: "npm:^8.14.0"
+    acorn-import-attributes: "npm:^1.9.5"
+    cjs-module-lexer: "npm:^1.2.2"
+    module-details-from-path: "npm:^1.0.3"
+  checksum: fea083fb2d6a9607702e3f4d675b19c52f3ebc271c9050f2a041966910bfd04047b100b13112f10109415c87c312206a8591d4a883fdedeb1f27e6637a96c852
   languageName: node
   linkType: hard
 
