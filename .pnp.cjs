@@ -2656,6 +2656,13 @@ const RAW_RUNTIME_STATE =
           ["@cbor-extract/cbor-extract-linux-arm64", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.2.0", {\
+        "packageLocation": "./.yarn/unplugged/@cbor-extract-cbor-extract-linux-arm64-npm-2.2.0-4f85f696e6/node_modules/@cbor-extract/cbor-extract-linux-arm64/",\
+        "packageDependencies": [\
+          ["@cbor-extract/cbor-extract-linux-arm64", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@cbor-extract/cbor-extract-linux-x64", [\
@@ -6439,7 +6446,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-sdk/client-s3", "npm:3.484.0"],\
           ["@aws-sdk/client-sns", "npm:3.484.0"],\
           ["@aws-sdk/client-sqs", "npm:3.484.0"],\
-          ["@cbor-extract/cbor-extract-linux-arm64", "npm:2.1.1"],\
+          ["@cbor-extract/cbor-extract-linux-arm64", "npm:2.2.0"],\
           ["@cbor-extract/cbor-extract-linux-x64", "npm:2.1.1"],\
           ["@grpc/grpc-js", "npm:1.9.13"],\
           ["@simplewebauthn/server", "npm:8.1.1"],\
