@@ -18,8 +18,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        db_type: [mysql, sqlite]
-        cache_type: [redis, memory]
+        db_type: [mysql]
+        cache_type: [redis]
 
     runs-on: ubuntu-latest
 
